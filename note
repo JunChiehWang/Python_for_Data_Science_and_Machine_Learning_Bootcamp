@@ -1,0 +1,54 @@
+jupyter notebook:
+
+Q: start it 
+A: jupyter notebook 
+   (start the notebook at the same directory where you type it)
+
+Q: see the list of methods
+A: ex: A=[1,2,3], then type A. and press Tab 
+
+Q: doctrings of functions
+A: use Shift+Tab with your cursor right after the function.
+
+Q: run the cell and go to next cell
+A: shift + enter
+
+Q: run the cell and create a new cell
+A: alt + enter
+
+Q: save the notebook
+A: ctrl + s 
+
+Q: change auto save interval to 180 sec 
+A: %autosave 180
+
+
+Q: auto-complete
+A: use Tab
+
+conda:
+Q: create environment:
+A: conda create --name snow biopython 
+   (which create a environment /env/snow)
+
+   conda create --n py35 python=3.5 numpy
+   (-n same as --name)
+
+   conda create --n py35 anaconda
+   (install entire conda distribution)
+
+Q: activate and deactivate
+A: activate snow
+   deactivate
+
+Q: check conda environment
+A: conda info --envs
+
+Q: install library
+A: conda install pandas
+   (pip install pandas if you dont have anaconda) 
+
+python:
+
+
+
