@@ -46,6 +46,10 @@ A: python:
    print("pandas version: ",pd.__version__)
    #pd.show_versions(as_json=False) reports the version of its dependencies
 
+   matplotlib:
+   import import matplotlib as plt
+   print("matplotlib version: ",plt.__version__)
+
 conda:
 Q: create environment:
 A: conda create --name snow biopython 
