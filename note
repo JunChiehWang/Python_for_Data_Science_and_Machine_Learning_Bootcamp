@@ -47,8 +47,22 @@ A: python:
    #pd.show_versions(as_json=False) reports the version of its dependencies
 
    matplotlib:
-   import import matplotlib as plt
-   print("matplotlib version: ",plt.__version__)
+   import matplotlib 
+   import matplotlib.pyplot as plt
+   print("matplotlib version: ",matplotlib.__version__)
+
+   sqlalchemy:
+   from sqlalchemy import create_engine
+   print("sqlalchemy version: ")
+   !conda list|grep sqlalchemy
+
+   lxml:
+   print("lxml version:")
+   !conda list|grep lxml
+
+   html5lib:
+   print("html5lib version: ")
+   !conda list|grep html5lib
 
 conda:
 Q: create environment:
