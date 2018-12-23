@@ -64,6 +64,14 @@ A: python:
    print("html5lib version: ")
    !conda list|grep html5lib
 
+   seaborn: 
+   import seaborn as sns
+   print("seaborn version: ",sns.__version__)
+
+   scipy:
+   import scipy
+   print("scipy version: ",scipy.__version__)
+
 conda:
 Q: create environment:
 A: conda create --name snow biopython 
