@@ -84,6 +84,10 @@ A: python:
    import pandas_datareader
    print("pandas_datareader version: ",pandas_datareader.__version__)
    
+   sklearn:
+   import sklearn
+   print('sklearn version: ', sklearn.__version__)
+   
 conda:
 Q: create environment:
 A: conda create --name snow biopython 
