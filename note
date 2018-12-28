@@ -73,13 +73,17 @@ A: python:
    print("scipy version: ",scipy.__version__)
 
    plotly:
-   from plotly import __version__
-   print("plotly version: ",__version__)
+   import plotly
+   print("plotly version: ",plotly.__version__)
 
    cufflinks:
    import cufflinks as cf
    print("cufflinks version: ",cf.__version__)
 
+   pandas_datareader:
+   import pandas_datareader
+   print("pandas_datareader version: ",pandas_datareader.__version__)
+   
 conda:
 Q: create environment:
 A: conda create --name snow biopython 
