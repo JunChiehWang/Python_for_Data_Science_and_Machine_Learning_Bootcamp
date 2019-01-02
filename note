@@ -88,6 +88,30 @@ A: python:
    import sklearn
    print('sklearn version: ', sklearn.__version__)
    
+----
+from platform import python_version
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib
+import matplotlib.pyplot as plt
+import sklearn
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+----
+print("version:")
+print("python: ", python_version())
+print("numpy: ", np.__version__)
+print("pandas: ", pd.__version__)
+print("seaborn: ", sns.__version__)
+print("matplotlib: ", sns.__version__)
+print("sklearn: ", sklearn.__version__)
+
+
+
+
 conda:
 Q: create environment:
 A: conda create --name snow biopython 
