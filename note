@@ -88,6 +88,9 @@ A: python:
    import sklearn
    print('sklearn version: ', sklearn.__version__)
    
+   pydot:
+   import pydot
+   print('pydot version: ', pydot.__version__)
 ----
 from platform import python_version
 import numpy as np
